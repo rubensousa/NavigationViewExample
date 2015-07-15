@@ -1,0 +1,10 @@
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+    </style>
+
+    <style name="NavigationItemStyle" parent="AppTheme">
+        <item name="colorControlHighlight">@color/LightGrey</item>
+    </style>
+
+</resources>
