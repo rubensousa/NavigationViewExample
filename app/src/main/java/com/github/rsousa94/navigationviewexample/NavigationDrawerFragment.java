@@ -194,13 +194,12 @@ public class NavigationDrawerFragment extends Fragment {
         }
 
         mCurrentSelectedId = menuItem.getItemId();
-        mNavigationView.invalidate();
 
         if (mDrawerLayout != null)
             mDrawerLayout.closeDrawer(mFragmentContainerView);
 
         if (mCallbacks != null)
-            mCallbacks.onNavigationDrawerItemSelected(mCurrentSelectedId,menuItem.getTitle().toString());
+            mCallbacks.onNavigationDrawerItemSelected(mCurrentSelectedId, menuItem.getTitle().toString());
 
     }
 
