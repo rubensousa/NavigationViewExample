@@ -38,8 +38,8 @@ And used it on the NavigationView:
 
 ## Dependencies
 
-    compile 'com.android.support:appcompat-v7:22.2.0'
-    compile 'com.android.support:design:22.2.0'
+    compile 'com.android.support:appcompat-v7:22.2.1'
+    compile 'com.android.support:design:22.2.1'
 
 
 ##License:
