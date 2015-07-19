@@ -15,18 +15,28 @@ Where navigation_item is a selector:
       <item android:color="@android:color/primary_text_light"/>
     </selector>
 
-Since the app:itemBackground attribute seems to have a bug
+~~Since the app:itemBackground attribute seems to have a bug
 (I couldn't use a selector, all items were changing upon a click on a single one),
-I created a theme:
+I created a theme:~~
 
     <style name="NavigationItemStyle" parent="AppTheme">
         <item name="colorControlHighlight">@color/LightGrey</item>
     </style>
 
-And used it on the NavigationView:
+~~And used it on the NavigationView:~~
 
     app:theme="@style/NavigationItemStyle"
+    
+#### This was fixed in version 22.2.1:
 
+    app:itemBackground="@drawable/navigation_background"
+
+navigation_background:
+    
+    <selector xmlns:android="http://schemas.android.com/apk/res/android">
+        <item android:drawable="@color/CadetBlue" android:state_checked="true"></item>
+        <item android:drawable="@android:color/transparent"></item>
+    </selector>
 
 ## Screenshot
 <img src="screenshots/navigationview.png" width="300">
