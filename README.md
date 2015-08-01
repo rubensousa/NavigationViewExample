@@ -35,6 +35,7 @@ navigation_background:
     
     <selector xmlns:android="http://schemas.android.com/apk/res/android">
         <item android:drawable="@color/CadetBlue" android:state_checked="true"></item>
+        <item android:drawable="@color/Tomato" android:state_pressed="true"></item>
         <item android:drawable="@android:color/transparent"></item>
     </selector>
 
@@ -42,7 +43,6 @@ navigation_background:
 <img src="screenshots/navigationview.png" width="300">
 
 ## TODO
-- Find out how to change background color on focusable state.
 - Create a mini navigation view as seen on: https://www.google.com/design/spec/patterns/navigation-drawer.html
 
 
