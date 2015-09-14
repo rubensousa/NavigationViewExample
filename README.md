@@ -42,9 +42,6 @@ navigation_background:
 ## Screenshot
 <img src="screenshots/navigationview.png" width="300">
 
-## TODO
-- Create a mini navigation view as seen on: https://www.google.com/design/spec/patterns/navigation-drawer.html
-
 
 ## Dependencies
 
